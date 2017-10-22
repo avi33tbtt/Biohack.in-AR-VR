@@ -6,9 +6,9 @@
  */
 AFRAME.registerComponent('set-image', {
   schema: {
-    on: {type: 'string'},
+    on: {type: 'string', default: true},
     target: {type: 'selector'},
-    src: {type: 'string'},
+    src: {type: 'string', default: true},
     dur: {type: 'number', default: 300}
   },
 
